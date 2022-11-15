@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codingpen | Daftar</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Codingpen</span>.com</a>
+        <nav>
+            <div class="navbar"></div>
+            <a href="/">Home</a>
+            <a href="/categories">Categories</a>
+            <a href="/courses">Courses</a>
+            <form action="/" method="GET">
+                <input type="text" name="keyword" placeholder="Cari disini ...">
+                <button type="submit">Cari</button>
+            </form>
+            <a href="/login">Login</a>
+            <a class="active" href="/daftar">Daftar</a>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section class="login">
+            <div class="center-text">
+                <h5>DAFTAR</h5>
+            </div>
+            <div class="login-content">
+                <h2>Daftar</h2>
+                <form action="/daftar" method="GET">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="" >
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="" >
+                    <input type="submit" value="Daftar">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
